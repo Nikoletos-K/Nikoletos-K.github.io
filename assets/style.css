@@ -32,7 +32,8 @@ h1, h2, h3, h4, h5, h6 {
 .text-cyan { color: #35bdff; }
 
 .left-side {
-  position: fixed;
+  position: relative;
+  overflow-y: scroll; 
 }
 
 .right-side {
@@ -40,7 +41,7 @@ h1, h2, h3, h4, h5, h6 {
   border-left: 1px solid  #b4b4b4;
   border-left-style: solid ;
   position: relative ;
-  overflow-y: scroll; // Only add scroll to vertical column
+  overflow-y: scroll; 
 }
 
 /*--------------------------------------------------------------
