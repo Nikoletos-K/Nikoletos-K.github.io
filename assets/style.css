@@ -53,7 +53,7 @@ h1, h2, h3, h4, h5, h6 {
     padding: 10px;
     margin: 0 auto;
     overflow: hidden;
-    color: #ffffff;
+    color: #000000;    /* TEXT COLOR */
 }
 
 .timeline:after {
@@ -62,7 +62,7 @@ h1, h2, h3, h4, h5, h6 {
     top: 0;
     left: 50%;
     margin-left: -1px;
-    border-right: 2px dashed #c4d2e2;
+    border-right: 2px dashed #c4d2e2;   /* MIDDLE LINE SPECS */
     height: 100%;
     display: block;
 }
@@ -71,9 +71,10 @@ h1, h2, h3, h4, h5, h6 {
     padding-left: 50%;
     position: relative;
     margin-bottom: 30px;
+    /* border-color: 10px solid #000000; */
 }
 
-.timeline-row .timeline-time {
+.timeline-row .timeline-time {        /* TIME AND MONTH */
     position: absolute;
     right: 50%;
     top: 31px;
@@ -90,46 +91,47 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .timeline-row .timeline-content {
-    position: relative;
-    padding: 20px 30px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    border-radius: 10px;
+  position: relative;
+  padding: 5px;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
 }
 
 .timeline-row .timeline-content:after {
-    content: "";
-    position: absolute;
-    top: 20px;
-    height: 3px;
-    width: 40px;
+  content: "";
+  position: absolute;
+  top: 20px;
+  height: 3px;
+  width: 40px;
 }
 
 .timeline-row .timeline-content:before {
-    content: "";
-    position: absolute;
-    top: 20px;
-    right: -50px;
-    width: 20px;
-    height: 20px;
-    -webkit-border-radius: 100px;
-    -moz-border-radius: 100px;
-    border-radius: 100px;
-    z-index: 100;
-    background: #ffffff;
-    border: 2px dashed #c4d2e2;
+  content: "";
+  position: absolute;
+  top: 20px;
+  right: -50px;
+  width: 20px;
+  height: 20px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  border-radius: 100px;
+  z-index: 100;
+  background: #ffffff;
+  border: 2px dashed #c4d2e2;
 }
 
+
 .timeline-row .timeline-content h4 {
-    margin: 0 0 20px 0;
+    /* margin: 0 0 20px 0;
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
-    line-height: 150%;
+    line-height: 150%; */
 }
 
 .timeline-row .timeline-content p {
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     line-height: 150%;
 }
 
@@ -155,26 +157,30 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .timeline-row:nth-child(even) .timeline-content {
-    background-color: #ff5000;
-    /* Fallback Color */
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#fc6d4c), to(#ff5000));
-    /* Saf4+, Chrome */
-    background-image: -webkit-linear-gradient(top, #fc6d4c, #ff5000);
-    /* Chrome 10+, Saf5.1+, iOS 5+ */
-    background-image: -moz-linear-gradient(top, #fc6d4c, #ff5000);
-    /* FF3.6 */
-    background-image: -ms-linear-gradient(top, #fc6d4c, #ff5000);
-    /* IE10 */
-    background-image: -o-linear-gradient(top, #fc6d4c, #ff5000);
-    /* Opera 11.10+ */
-    background-image: linear-gradient(top, #fc6d4c, #ff5000);
-    margin-left: 40px;
-    text-align: left;
+
+  background-color: #ffffff;
+  /* Fallback Color */
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#ffffff));
+  /* Saf4+, Chrome */
+  background-image: -webkit-linear-gradient(top, #ffffff, #ffffff);
+  /* Chrome 10+, Saf5.1+, iOS 5+ */
+  background-image: -moz-linear-gradient(top, #fc6d4c, #ff5000);
+  /* FF3.6 */
+  background-image: -ms-linear-gradient(top, #fc6d4c, #ff5000);
+  /* IE10 */
+  background-image: -o-linear-gradient(top, #fc6d4c, #ff5000);
+  /* Opera 11.10+ */
+  background-image: linear-gradient(top, #ff3333, #ffffff);
+
+  border: 1px solid #575353;
+  border-radius: 5%;
+  margin-left: 40px;
+  text-align: left;
 }
 
 .timeline-row:nth-child(even) .timeline-content:after {
     left: -39px;
-    border-right: 18px solid #ff5000;
+    border-right: 18px solid #8c84ff;
     border-top: 10px solid transparent;
     border-bottom: 10px solid transparent;
 }
@@ -198,22 +204,28 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .timeline-row:nth-child(odd) .timeline-content {
-    background-color: #5a99ee;
+    background-color: #ffffff;
     /* Fallback Color */
     background-image: -webkit-gradient(linear, left top, left bottom, from(#1379bb), to(#5a99ee));
     /* Saf4+, Chrome */
-    background-image: -webkit-linear-gradient(top, #1379bb, #5a99ee);
+    background-image: -webkit-linear-gradient(top, #ffffff, #ffffff);
     /* Chrome 10+, Saf5.1+, iOS 5+ */
-    background-image: -moz-linear-gradient(top, #1379bb, #5a99ee);
+    background-image: -moz-linear-gradient(top, #ffffff, #ffffff);
     /* FF3.6 */
-    background-image: -ms-linear-gradient(top, #1379bb, #5a99ee);
+    background-image: -ms-linear-gradient(top, #ffffff, #ffffff);
     /* IE10 */
-    background-image: -o-linear-gradient(top, #1379bb, #5a99ee);
+    background-image: -o-linear-gradient(top, #ffffff, #ffffff);
     /* Opera 11.10+ */
-    background-image: linear-gradient(top, #1379bb, #5a99ee);
+    background-image: linear-gradient(top, #ffffff, #ffffff);
+
+
+    
     margin-right: 40px;
     margin-left: 0;
-    text-align: right;
+    text-align: left;
+    border: 1px solid #bbbbbb;
+    border-radius: 5%;
+    /* border-style: dotted; */
 }
 
 .timeline-row:nth-child(odd) .timeline-content:after {
