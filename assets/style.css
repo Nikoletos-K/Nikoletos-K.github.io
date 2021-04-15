@@ -1,5 +1,5 @@
 /*--------------------------------------------------------------
-# General
+# Screen in half
 --------------------------------------------------------------*/
 /* body {
   font-family: "Open Sans", sans-serif;
@@ -24,7 +24,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .btn-round { border-radius: 30px; }
 .right-color-bg { 
-  background: rgb(255, 252, 252);
+  background: rgb(255, 255, 255);
   border-left: 1px solid  #b4b4b4;
   border-left-style: solid ;
 
@@ -218,4 +218,62 @@ h1, h2, h3, h4, h5, h6 {
           left: -14px;
           right: auto;
       }
+}
+
+
+/*--------------------------------------------------------------
+# FontAwesome
+--------------------------------------------------------------*/
+
+i.fab, i.far {
+  /* border: 10px; */
+  font-size: 30px;
+}
+
+.fa-linkedin {
+  color: rgb(50, 32, 209);
+}
+
+.fa-linkedin:hover {
+  color: rgb(120, 71, 255);
+}
+
+.fa-github {
+  color: rgb(0, 0, 0);
+}
+
+.fa-github:hover {
+  color: rgb(31, 146, 136);
+}
+
+.fa-whatsapp {
+  color: rgb(33, 156, 49);
+}
+
+.fa-file{
+  color: rgb(25, 15, 170);
+}
+
+.fa-whatsapp:hover {
+  color: rgb(54, 52, 207);
+}
+
+.fa-google-drive {
+  color: rgb(204, 169, 14);
+}
+
+.fa-google-drive:hover {
+  color: rgb(9, 158, 9);
+}
+
+.fa-google {
+  color: rgb(68, 103, 216);
+}
+
+.fa-google:hover {
+  color: rgb(68, 216, 68);
+}
+
+.fa-code {
+  color: rgb(54, 52, 207);
 }
