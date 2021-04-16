@@ -1,9 +1,14 @@
 /*--------------------------------------------------------------
 # Screen in half
 --------------------------------------------------------------*/
-/* body{margin-top:20px;
-  background:#eee;
-} */
+body{
+  /* margin-top:20px; */
+  /* background:#eee; */
+  /* background-image: url("./myfonts/wall-5.jpg") repeat 0 0;; */
+/* background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover; */
+}
 
 
 /* body {
@@ -34,6 +39,24 @@ h1, h2, h3, h4, h5, h6 {
 .left-side {
   position: relative;
   overflow-y: scroll; 
+  background: rgb(107,187,255);
+  background: -moz-linear-gradient(180deg, rgba(107,187,255,1) 0%, rgba(114,190,255,0.8911939775910365) 3%, rgba(255,255,255,1) 10%);
+  background: -webkit-linear-gradient(180deg, rgba(107,187,255,1) 0%, rgba(114,190,255,0.8911939775910365) 3%, rgba(255,255,255,1) 10%);
+  background: linear-gradient(180deg, rgba(107,187,255,1) 0%, rgba(114,190,255,0.8911939775910365) 3%, rgba(255,255,255,1) 10%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#6bbbff",endColorstr="#ffffff",GradientType=1);
+
+  background: rgb(107,187,255);
+  background: -moz-linear-gradient(180deg, rgba(107,187,255,1) 0%, rgba(114,190,255,1) 3%, rgba(255,255,255,1) 7%);
+  background: -webkit-linear-gradient(180deg, rgba(107,187,255,1) 0%, rgba(114,190,255,1) 3%, rgba(255,255,255,1) 7%);
+  background: linear-gradient(180deg, rgba(107,187,255,1) 0%, rgba(114,190,255,1) 3%, rgba(255,255,255,1) 7%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#6bbbff",endColorstr="#ffffff",GradientType=1);
+
+  background: rgb(107,187,255);
+background: -moz-linear-gradient(180deg, rgba(107,187,255,1) 0%, rgba(154,205,249,1) 2%, rgba(255,255,255,1) 6%);
+background: -webkit-linear-gradient(180deg, rgba(107,187,255,1) 0%, rgba(154,205,249,1) 2%, rgba(255,255,255,1) 6%);
+background: linear-gradient(180deg, rgba(107,187,255,1) 0%, rgba(154,205,249,1) 2%, rgba(255,255,255,1) 6%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#6bbbff",endColorstr="#ffffff",GradientType=1);
+
 }
 
 .right-side {
@@ -42,22 +65,38 @@ h1, h2, h3, h4, h5, h6 {
   border-left-style: solid ;
   position: relative ;
   overflow-y: scroll; 
-  background-color: #ffffff;
+  /* background-color: #f0f0f0; */
+  
   
   /* Fallback Color */
   /* background-image: -webkit-gradient(linear, top, bottom, from(#ffffff), to(#7b7fd1)); */
   /* Saf4+, Chrome */
-  /* background-image: -webkit-linear-gradient(top, #fc6d4c, #ff5000); */
+  /* background-image: -webkit-linear-gradient(top, #ffffff, #1cd1b3); */
   /* Chrome 10+, Saf5.1+, iOS 5+ */
-  /* background-image: -moz-linear-gradient(top, #fc6d4c, #ff5000); */
+  /* background-image: -moz-linear-gradient(top, #ffffff, #1cd1b3); */
   /* FF3.6 */
   /* background-image: -ms-linear-gradient(top, #fc6d4c, #ff5000); */
   /* IE10 */
   /* background-image: -o-linear-gradient(top, #fc6d4c, #ff5000); */
   /* Opera 11.10+ */
-  /* background-image: linear-gradient(top, #ffffff, #7b80d1); */
-}
+  /* background-image: linear-gradient(top, #ffffff, #ff9900); */
+  /* background: rgb(15,101,235);
+  background: linear-gradient(0deg, rgba(15,101,235,1) 2%, rgba(74,175,250,0.8911939775910365) 7%, rgba(255,255,255,1) 23%); */
 
+  background: rgb(15,101,235);
+  background: -moz-linear-gradient(0deg, rgba(15,101,235,1) 0%, rgba(47,166,255,0.8911939775910365) 0%, rgba(255,255,255,1) 23%);
+  background: -webkit-linear-gradient(0deg, rgba(15,101,235,1) 0%, rgba(47,166,255,0.8911939775910365) 0%, rgba(255,255,255,1) 23%);
+  background: linear-gradient(0deg, rgba(15,101,235,1) 0%, rgba(47,166,255,0.8911939775910365) 0%, rgba(255,255,255,1) 23%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0f65eb",endColorstr="#ffffff",GradientType=1);
+
+  background: rgb(107,187,255);
+  background: -moz-linear-gradient(0deg, rgba(107,187,255,1) 0%, rgba(114,190,255,0.8911939775910365) 3%, rgba(255,255,255,1) 10%);
+  background: -webkit-linear-gradient(0deg, rgba(107,187,255,1) 0%, rgba(114,190,255,0.8911939775910365) 3%, rgba(255,255,255,1) 10%);
+  background: linear-gradient(0deg, rgba(107,187,255,1) 0%, rgba(114,190,255,0.8911939775910365) 3%, rgba(255,255,255,1) 10%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#6bbbff",endColorstr="#ffffff",GradientType=1);
+
+
+}
 /*--------------------------------------------------------------
 # Timeline
 --------------------------------------------------------------*/
@@ -66,6 +105,7 @@ h1, h2, h3, h4, h5, h6 {
   list-style: none;
   padding: 0;
   position: relative;
+  background-color: transparent;
 }
 
 .timeline:before {    /* LINE */
@@ -77,6 +117,7 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #6c7293;
   left: 50%;
   margin-left: -1px;
+  /* background-color: transparent; */
 }
 
 .timeline .timeline-wrapper {
@@ -366,6 +407,7 @@ h1, h2, h3, h4, h5, h6 {
   -ms-box-shadow: none;
   border: 0;
   position: absolute;
+  background-color: transparent;
 }
 
 .card .card-body {
@@ -377,7 +419,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .card .card-title {
-  color: #045bd6;
+  color: #002d6b;
   margin-bottom: .5rem;
   /* text-transform: capitalize; */
   font-size: 3rem;
@@ -522,7 +564,7 @@ i.fab, i.far {
 }
 
 .fa-github:hover {
-  color: rgb(31, 146, 136);
+  color: rgb(219, 46, 23);
 }
 
 .fa-whatsapp {
@@ -538,11 +580,11 @@ i.fab, i.far {
 }
 
 .fa-google-drive {
-  color: rgb(204, 169, 14);
+  color: rgb(20, 204, 14);
 }
 
 .fa-google-drive:hover {
-  color: rgb(9, 158, 9);
+  color: rgb(158, 64, 9);
 }
 
 .fa-google {
@@ -555,4 +597,12 @@ i.fab, i.far {
 
 .fa-code {
   color: rgb(54, 52, 207);
+}
+
+.fa-facebook-messenger:hover {
+  color: rgb(68, 216, 204);
+}
+
+.fa-viber:hover {
+  color: rgb(218, 28, 69);
 }
