@@ -152,6 +152,10 @@ h1, h2, h3, h4, h5, h6 {
   font-size: .8875rem;
 }
 
+.timeline .timeline-wrapper .links  i {
+  font-size: 1.5rem;
+}
+
 .timeline .timeline-wrapper .timeline-panel .timeline-body ul {
   margin-bottom: 0;
 }
