@@ -148,6 +148,7 @@ h1, h2, h3, h4, h5, h6 {
   /* text-transform: uppercase; */
 }
 
+.timeline .timeline-wrapper .timeline-panel  li,
 .timeline .timeline-wrapper .timeline-panel  p {
   font-size: .8875rem;
 }
@@ -363,7 +364,7 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   -ms-box-shadow: none;
-  /* border: 0; */
+  border: 0;
   position: absolute;
 }
 
