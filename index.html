@@ -13,46 +13,20 @@
         <!-- Stylesheets -->
         
         <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
-
         <link href="assets/style.css" rel="stylesheet">
-
         <link href="fontawesome/css/all.css" rel="stylesheet">
         <link href="fontawesome/css/font-awesome.css" rel="stylesheet">
-        <!--
-        <link href="css/ionicons.css" rel="stylesheet">
-        
-        <link href="common-css/fluidbox.min.css" rel="stylesheet">
-        
-        <link href="01-cv-portfolio/css/styles.css" rel="stylesheet">
-        
-        <link href="01-cv-portfolio/css/responsive.css" rel="stylesheet">
-    
-        <link href="01-cv-portfolio/css/mystyle.css" rel="stylesheet">
-        
-        <link rel="stylesheet" href="common-css/owl.carousel.min.css">
-    
-        <link rel="stylesheet" href="common-css/owl.theme.default.min.css">
-         -->
 
-         
-        <!------ Vertical timeline ---------->
-        <!-- <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-
-        <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
-        
-        <script src="//code.jquery.com/jquery-1.11.1.min.js"></script> -->
-    
     </head>
 
     <body>
-        <!-- <div class="row"></div> -->
-        <div class="d-md-flex h-md-100 d-md-flex h-md-100 left-side">
+        <div class="d-md-flex d-md-flex  left-side">
 
             <!-- First Half -->
             
-            <div class="col-md-7 col-sm-12 h-md-100">
+            <div class="col-md-7 col-sm-12 ">
                 <div class="text-black p-5 ">
-                    <div class="row pl-2">
+                    <div class="row">
                         <div class="col-sm-4 pt-2 pl-2 ml-2">
                             <div class="d-flex text-center">
                                 <img src="images/circle-cropped.png" alt="Nikoletos-K"  width="250" style="border-radius: 50%;">
@@ -94,7 +68,7 @@
                                 </div>
 
                                 <!-- <div class="col-1">
-                                    <a href="#"><i class="fab fa-google-drive"></i></a>
+                                    <a href="#"><i class="fab fa-file"></i></a>
                                 </div> -->
                                 <div class="col-2">
                                     <a href="#"><i class="fab fa-facebook-messenger"></i></a>
@@ -107,7 +81,7 @@
                         </div>                         
                     </div>
                     <hr>
-                    <div class="row pt-1">
+                    <div class="row pt-1 mysection">
                         <h4><i class="fas fa-info-circle" style="color: rgb(68, 199, 216);"></i> About me</h4>
                         <p> &nbsp;&nbsp; At this time I am an undergraduate student in Computer Sciences at 
                             the Department of Informatics and Telecommunications of the University of Athens in Greece.
@@ -116,17 +90,35 @@
                              get involved in a research project and at the same time work with people that share the same enthusiasm for Computer Sciences. 
                         </p> 
                     </div> 
-                    <div class="row pt-1">
+                    <div class="row pt-1 mysection">
                         <h4><i class="fas fa-university" style="color: rgb(0, 160, 0);"></i> Education</h4>
                         <p>
-                            <b style="color: rgb(9, 9, 139);"> &nbsp;&nbsp; Bachelor in Computer Science </b> <br>
-                            <b style="color: rgb(117, 139, 238);"> &nbsp;&nbsp; Department of Informatics and Telecommunications  |  National and Kapodistrian University of Athens - NKUA </b> <br>
-                            &nbsp;&nbsp; Current GPA: <strong style="color: rgb(79, 172, 175);"> 8.69/10 </strong> <br>
-                            <b style="color: rgb(120, 179, 133);"> &nbsp;&nbsp; September 2017 - Ongoing  </b><br>
+                            <b style="color: rgb(9, 9, 139);"> Bachelor in Computer Science </b> <br>
+                            <b style="color: rgb(117, 139, 238);">  Department of Informatics and Telecommunications  |  National and Kapodistrian University of Athens - NKUA </b> <br>
                         </p>
+                        <div class="row justify-content-between">
+                            <div class="col-3 gpa">Current GPA: <strong style="color: rgb(0, 0, 0);font-size: 14px; "> 8.69/10 </strong></div>
+                            <div class="col-3"> <b style="color: rgb(0, 0, 0);font-size: 14px;">  September 2017 - Ongoing  </b></div>
+                        </div>                                                
+                        
                     </div>
-                    <div class="row pt-1">
+                    <div class="row pt-3 projects-list mysection">
                         <h4> <i class="fas fa-code"></i> Projects</h4>
+                        <p> My top projects so far: </p>                            
+                        <div class="pl-2">
+                            <ul>
+                                <li> Entity resolution system for SIGMOD-2020 contest | C  <a href="#" class="card-link"><i style="font-size: 20px;" class="fab fa-github" aria-hidden="true"></i></a></li> 
+                            </ul>
+                            <ul>
+                                <li> QA with SBERT for CORD-19 | Python, PyTorch  <a href="#" class="card-link"><i style="font-size: 20px;" class="fab fa-github" aria-hidden="true"></i></a></li> 
+                            </ul>
+                            <ul>
+                                <li> Twitter Sentiment Analysis | Python, PyTorch  <a href="#" class="card-link"><i style="font-size: 20px;" class="fab fa-github" aria-hidden="true"></i></a></li> 
+                            </ul>
+                            <ul>
+                                <li> Greek ministry of Labour website | PhP, BootStrap, XAMPP  <a href="#" class="card-link"><i style="font-size: 20px;" class="fab fa-github" aria-hidden="true"></i></a></li> 
+                            </ul>
+                        </div>
                     </div>
                     <!-- <div class="row">
                         <h4>Skills</h4>
@@ -134,16 +126,21 @@
                     <div class="row">
                         <h4>Languages</h4>
                     </div> -->
-                    <div class="row pt-1">
+                    <div class="row pt-1 projects-list mysection">
                         <h4><i class="fas fa-laptop" style="color: rgb(182, 22, 22);"></i> Work experience</h4>
+                        <div class="pl-2">
+                            <ul>
+                                <li> Private tutoring for high school students |  Mathematics,Informatics,Chemistry,Physics </li> 
+                            </ul>
+                        </div>                    
                     </div>
                 </div>
             </div>
 
             <!-- Second Half -->
             
-            <div class="col-md-5 col-sm-12 p-0 right-side h-sm-100 h-md-100">
-                <div class="d-md-flex h-md-100 h-sm-100 p-1 ">
+            <div class="col-md-5 col-sm-12 p-0 right-side ">
+                <div class="d-md-flex  p-1 ">
 
                     <!-- Container here -->
 

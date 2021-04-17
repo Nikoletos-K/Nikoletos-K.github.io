@@ -38,7 +38,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .left-side {
   position: relative;
-  overflow-y: scroll; 
+  /* overflow-y: scroll;  */
+
   background: rgb(107,187,255);
   background: -moz-linear-gradient(180deg, rgba(107,187,255,1) 0%, rgba(114,190,255,0.8911939775910365) 3%, rgba(255,255,255,1) 10%);
   background: -webkit-linear-gradient(180deg, rgba(107,187,255,1) 0%, rgba(114,190,255,0.8911939775910365) 3%, rgba(255,255,255,1) 10%);
@@ -605,4 +606,53 @@ i.fab, i.far {
 
 .fa-viber:hover {
   color: rgb(218, 28, 69);
+}
+
+/*--------------------------------------------------------------
+# Prohect list
+--------------------------------------------------------------*/
+
+/* List */
+.projects-list ul {
+  /* counter-reset: index;  
+  padding: 0;
+  max-width: 300px; */
+  list-style-type: none ;
+}
+
+/* List element */
+.projects-list li {
+  
+  /* counter-increment: none;  */
+  /* display: flex; */
+  align-items: center;
+  /* padding: 12px 0; */
+  box-sizing: border-box;
+}
+
+ul li::before {
+  content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: rgb(0, 68, 255); /* Change the color */
+  font-weight: 1000; /* If you want it to be bold */
+  font-size: 15px;
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: 0.5em; /* Also needed for space (tweak if needed) */
+}
+
+/* Element separation */
+.projects-list li + li {
+  border-top: 0px solid rgba(255,255,255,0.2);
+}
+
+.projects-list  i {
+  margin-left: 5px;
+}
+
+.mysection p {
+  margin-left: 20px;
+}
+
+.gpa {
+  margin-left: 20px;
 }
