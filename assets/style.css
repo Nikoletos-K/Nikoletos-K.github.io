@@ -8,6 +8,7 @@ body{
 /* @media (min-width: 768px) {
     .h-md-100 { height: 100vh; }
 } */
+
 .btn-round { border-radius: 30px; }
 
 .text-cyan { color: #35bdff; }
@@ -72,7 +73,7 @@ body{
 
 .timeline .timeline-wrapper {
   display: block;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
   position: relative;
   width: 100%;
   padding-right: 60px;
@@ -357,6 +358,7 @@ body{
   -ms-box-shadow: none;
   border: 0;
   position: absolute;
+  
   background-color: transparent;
 }
 
@@ -538,11 +540,11 @@ i.fab, i.far {
 }
 
 .fa-google {
-  color: rgb(68, 103, 216);
+  color: rgb(214, 32, 0);
 }
 
 .fa-google:hover {
-  color: rgb(68, 216, 68);
+  color: rgb(23, 187, 23);
 }
 
 .fa-code {
