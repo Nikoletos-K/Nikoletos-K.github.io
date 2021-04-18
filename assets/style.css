@@ -627,6 +627,12 @@ i.fab, i.far {
 
 .gpa-date {
   margin-top: -0.5rem;
+  
+}
+
+.work-date {
+  margin-top: 1em;
+  margin-right: 2rem;
 }
 
 .copyright {
@@ -677,12 +683,16 @@ i.fab, i.far {
   text-align: center;
 }
 
+.mycv:hover {
+  color: #464dee;
+  margin-left: 5px;
+}
 
 .head-icon {
   /* padding: 15px 20px; */
   /* width: 50px; */
   align-self: center;
-  margin-right: -10em;
+  margin-right: -11em;
   /* padding-bottom: 20px; */
 
 }
@@ -697,6 +707,7 @@ i.fab, i.far {
   font-size: 14px;
   font-weight: bold;
   margin-right: 5px;
+  padding-left: -2em;
 }
 
 .timeline-title {
