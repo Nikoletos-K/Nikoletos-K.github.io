@@ -150,7 +150,7 @@ h1, h2, h3, h4, h5, h6, figure {
   top: 40px;
   left: 0;
   width: 30px;
-  height: 4px;
+  /* height: 4px; */
   content: '';
   background: #fff;
   margin-left: -30px;
@@ -161,7 +161,7 @@ h1, h2, h3, h4, h5, h6, figure {
   top: 40px;
   right: 0;
   width: 30px;
-  height: 4px;
+  /* height: 4px; */
   content: '';
   background: #fff;
   margin-right: -30px;
@@ -189,7 +189,7 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-header .display-tc h2,
 .fh5co-cover .display-tc h2 {
   font-size: 20px;
-  line-height: 1.5;
+  line-height: 0;
   margin-bottom: 30px;
 }
 #fh5co-header .display-tc h3,
