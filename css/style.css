@@ -233,6 +233,11 @@ h1, h2, h3, h4, h5, h6, figure {
 
 #fh5co-features {
   background: #2567a5;
+  background-image: url(../images/lib-7-b.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  /* background-position-y: 65%; */
+  background-attachment: fixed;
 }
 #fh5co-features h2 {
   color: #fff;
