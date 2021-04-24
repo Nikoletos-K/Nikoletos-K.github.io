@@ -85,20 +85,7 @@
 	<![endif]-->
 	
 	<link rel="icon" href="images/logo-5.png">
-	
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-	<script>
-		$('body').append('<div style="" id="loadingDiv"><div class="loader">Loading...</div></div>');
-		$('#backImg').on('load', function(){
-			setTimeout(removeLoader, 1000000); //wait for page load PLUS two seconds.
-		});
-		function removeLoader(){
-			$( "#loadingDiv" ).fadeOut(100000, function() {
-			// fadeOut complete. Remove the loading div
-			$( "#loadingDiv" ).remove(); //makes page more lightweight 
-		});  
-		}
-	</script>
+
 	</head>
 	<body>
 		
@@ -111,7 +98,7 @@
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2 text-center">
 					<div class="display-t js-fullheight">
-						<div class="display-tc js-fullheight animate-box" id="backImg"  data-animate-effect="fadeIn">
+						<div class="display-tc js-fullheight animate-box" data-animate-effect="fadeIn">
 							<div class="profile-thumb" style="background: url(images/prof.jpg);background-position: center;"></div>
 							<h1><span>Konstantinos Nikoletos</span></h1>
 							<h3><span>Software Developer / Bs Computer Science Student</span></h3>
