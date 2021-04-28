@@ -102,6 +102,8 @@ h1, h2, h3, h4, h5, h6, figure {
   right: 0;
   background: rgba(24, 26, 151, 0.9);
   background-image: url(../images/cov-2-b4.jpg);
+  /* background-image: url(../images/wall-fib.jpg); */
+  
   /* background-position: center; */
   background-position: 50% 50%;
   background-size: cover; /* Resize the background image to cover the entire container */
@@ -234,7 +236,7 @@ h1, h2, h3, h4, h5, h6, figure {
 
 #fh5co-features {
   background: #2567a5;
-  background-image: url(../images/lib-7-b.jpg);
+  background-image: url(../images/wall-geom.png);
   background-repeat: no-repeat;
   background-position: center;
   /* background-position-y: 65%; */
@@ -1314,3 +1316,16 @@ input[type="text"] {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+.icons-footer {
+  padding-bottom: 10px;
+}
+
+
+.icons-footer i {
+  font-size: 30px;
+}
+
+.icons-footer ul {
+  align-items: center;
+}
