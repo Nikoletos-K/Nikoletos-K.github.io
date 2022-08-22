@@ -88,13 +88,44 @@
 	<link rel="icon" href="images/logo-5.png">
 	<link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
 	<meta name="google-site-verification" content="GoK4tuuI3F90yONsVPrWWvN5bWStMxVTRCLP_anBQ60" />
+	
+	<script>
+	$(function(){
+		var str = '#len'; //increment by 1 up to 1-nelemnts
+		$(document).ready(function(){
+		  var i, stop;
+		  i = 1;
+		  stop = 4; //num elements
+		  setInterval(function(){
+			if (i > stop){
+			  return;
+			}
+			$('#len'+(i++)).toggleClass('bounce');
+		  }, 500)
+		});
+	  });
+	</script>
 	</head>
 	<body>
 		
 	<div class="fh5co-loader"></div>
 	
-	<div id="page">	
-	<header id="fh5co-header" class="fh5co-cover js-fullheight" role="banner" style="background-image:url(images/cover_bg_3.jpg);" data-stellar-background-ratio="0.5">
+	<nav class="navbar navbar-fixed navbar-inverse hidden-xs">
+		<div class="container">
+			<a class="navbar-brand logo" href="#home">Nikoletos-K</a>
+			<ul class="nav navbar-nav" >
+				<li><a id="len1" class="hoverable" href="#home">Home</a></li>
+				<li><a id="len2" class="hoverable" href="#about">About</a></li>
+				<li><a id="len3" class="hoverable" href="#fh5co-resume">Resume</a></li>
+				<li><a id="len4" class="hoverable" href="#fh5co-features">Interests</a></li>
+				<li><a id="len5" class="hoverable" href="#fh5co-publications">Publications</a></li>
+				<li><a id="len6" class="hoverable" href="#fh5co-projects">Projects</a></li>
+			</ul>
+		</div>
+	</nav>
+
+	<div id="page">
+	<header id="home" class="fh5co-cover js-fullheight" role="banner" data-stellar-background-ratio="0.5">
 		<div class="overlay"></div>
 		<div class="container">
 			<div class="row">
@@ -120,8 +151,9 @@
 			</div>
 		</div>
 	</header>
+	<hr>
 
-	<div id="fh5co-about" class="animate-box">
+	<div id="about" class="animate-box">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
@@ -161,12 +193,12 @@
 			</div>
 		</div>
 	</div>
-	<hr>
+	<!-- <hr> -->
 	<div id="fh5co-resume" class="fh5co-bg-color">
 		<div class="container">
 			<div class="row animate-box">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-					<h2>My Resume</h2>
+					<h2>Curriculum Vitae</h2>
 				</div>
 			</div>
 			<div class="row">
