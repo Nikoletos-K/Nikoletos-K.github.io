@@ -71,17 +71,17 @@ h1, h2, h3, h4, h5, h6, figure {
 
 ::-webkit-selection {
   color: #fff;
-  background: #ff0000;
+  background: #5f9a9e;
 }
 
 ::-moz-selection {
   color: #fff;
-  background: #ff0000;
+  background: #5f9a9e;
 }
 
 ::selection {
   color: #fff;
-  background: #ff0000;
+  background: #5f9a9e;
 }
 
 #home,
