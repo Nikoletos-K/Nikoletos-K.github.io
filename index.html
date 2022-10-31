@@ -89,28 +89,15 @@
 	<link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
 	<meta name="google-site-verification" content="GoK4tuuI3F90yONsVPrWWvN5bWStMxVTRCLP_anBQ60" />
 	
-	<script>
-	$(function(){
-		var str = '#len'; //increment by 1 up to 1-nelemnts
-		$(document).ready(function(){
-		  var i, stop;
-		  i = 1;
-		  stop = 4; //num elements
-		  setInterval(function(){
-			if (i > stop){
-			  return;
-			}
-			$('#len'+(i++)).toggleClass('bounce');
-		  }, 500)
-		});
-	  });
-	</script>
-	<script>
 
-	</script>
+
 	</head>
 	<body>
+
 		
+		
+
+
 	<div class="fh5co-loader"></div>
 	
 	<nav class="navbar navbar-fixed navbar-inverse hidden-xs">
@@ -128,13 +115,21 @@
 		</div>
 	</nav>
 
-	
+
+
 	<div id="page">
 	<header id="home" class="fh5co-cover js-fullheight" role="banner" data-stellar-background-ratio="0.5">
+
+
+
 		<div class="overlay"></div>
+		<div id="particles-js"></div>
 		<div class="container">
+
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2 text-center">
+					
+
 					<div class="display-t js-fullheight">
 						<div class="display-tc js-fullheight animate-box" data-animate-effect="fadeIn">
 							<div class="profile-thumb" style="background: url(./images/MIP_0176-modified.png);background-position: center;"></div>
@@ -724,6 +719,8 @@
 	<!-- <div id="map" class="fh5co-map"></div>
 	</div> -->
 
+	
+
 
 	<div id="fh5co-footer">
 		<div class="container">
@@ -735,6 +732,7 @@
 		</div>
 	</div>
 
+	
 	<div class="gototop js-top">
 		<a href="#" class="js-gotop"><i class="icon-arrow-up22"></i></a>
 	</div>
@@ -754,10 +752,13 @@
 	<!-- Google Map -->
 	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCefOgb1ZWqYtj7raVSmN4PL2WkTrc-KyA&sensor=false"></script>
 	<script src="js/google_map.js"></script>
-	
+	<script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> 
+	<!-- stats.js lib --> 
+	<script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
 	<!-- Main -->
 	<script src="js/main.js"></script>
-	
+	<!-- <script>
+	</script> -->
 	<!-- Google Analytics -->
 	<script>
 	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -769,7 +770,9 @@
 	ga('send', 'pageview');
 	</script>
 	<!-- End Google Analytics -->
-
+	
 	</body>
+	
+
 </html>
 
