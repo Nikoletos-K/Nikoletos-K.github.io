@@ -1,0 +1,14 @@
+[
+    {
+        "id": "C1",
+        "title": "Self-configured Entity Resolution with pyJedAI",
+        "authors": ["Vasilis Efthymiou","Ekaterini Ioannou","Manos Karvounis","Manolis Koubarakis","Jakub Maciejewski","Konstantinos Nikoletos","George Papadakis","Dimitrios Skoutas","Yannis Velegrakis","Alexandros Zeakis"],
+        "publisher": "IEEE Big Data",
+        "topic": "Auto Configuration, Entity Resolution",
+        "year": "2023",
+        "links": [
+            { "label": "PDF", "url": "https://ieeexplore.ieee.org/abstract/document/10386556" },
+            { "label": "Cite", "url": "https://dblp.org/rec/conf/bigdataconf/EfthymiouIKKMNPSVZ23.html?view=bibtex" }
+        ]
+    }
+]

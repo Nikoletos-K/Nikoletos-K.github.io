@@ -1,0 +1,26 @@
+[
+    {
+        "id": "J1",
+        "title": "pyJedAI: A Library with Resolution-Related Structures and Procedures for Products",
+        "authors": ["Ekaterini Ioannou", "Konstantinos Nikoletos", "George Papadakis"],
+        "publisher": "INFORMS Journal on computing",
+        "topic": "Product Matching",
+        "year": "2024",
+        "links": [
+            { "label": "PDF", "url": "https://doi.org/10.1287/ijoc.2023.0410" },
+            { "label": "Cite", "url": "https://example.com/fulltext" }
+        ]
+    },
+    {
+        "id": "J2",
+        "title": "Open benchmark for filtering techniques in entity resolution",
+        "authors": ["Franziska Neuhof", "Marco Fisichella", "George Papadakis", "Konstantinos Nikoletos", "Nikolaus Augsten", "Wolfgang Nejdl", "Manolis Koubarakis"],
+        "publisher": "VLDB Journal",
+        "topic": "Entity Resolution",
+        "year": "2024",
+        "links": [
+            { "label": "PDF", "url": "https://link.springer.com/article/10.1007/s00778-024-00868-7" },
+            { "label": "Cite", "url": "https://link.springer.com/article/10.1007/s00778-024-00868-7#citeas" }
+        ]
+    }
+]

@@ -11,7 +11,7 @@
 *
 * ======================================================= */
 body {
-  font-family: Futura, "Poppins", Arial, sans-serif;
+  font-family: "Times New Roman", Futura, "Poppins", Arial, sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.7;
@@ -47,7 +47,8 @@ body {
 }
 
 a {
-  color: #16b867;
+  color: #00a5b1;
+  /* font-weight: bold; */
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
@@ -629,6 +630,7 @@ align-items: center;
 
 .timeline-title {
   margin-top: 0;
+  font-weight: 600;
 }
 
 .company {
@@ -872,6 +874,7 @@ align-items: center;
   float: left;
   margin-bottom: 40px;
 }
+
 @media screen and (max-width: 768px) {
   .projects {
     width: 100%;
@@ -970,6 +973,7 @@ align-items: center;
 .projects .blog-text p {
   font-size: 14px;
 }
+
 
 #fh5co-consult {
   display: -webkit-box;
@@ -1394,7 +1398,7 @@ input[type="text"] {
   backface-visibility: hidden;
   vertical-align: middle;
   position:relative;
-  box-shadow: 0 0 1px rgba(0,0,0,0);
+  box-shadow: 0 0 1px rgba(0,0,0);
   tranform: translateZ(0);
   text-align: center;
   transition-duration: .3s;
@@ -1479,6 +1483,37 @@ input[type="text"] {
   }
 }
 
+@media screen and (max-width: 768px) {
+  .navbar-collapse {
+    text-align: center;
+  }
+
+  .navbar-nav {
+    float: none;
+    margin: 0 auto;
+    display: inline-block;
+  }
+
+  .navbar-nav > li {
+    float: none;
+    display: inline-block;
+    width: 100%; /* Full-width items */
+    text-align: center; /* Center align text */
+  }
+
+  .navbar-nav > li > a {
+    display: block;
+    text-align: center; /* Center align links */
+    padding: 10px 15px; /* Adjust spacing for better touch experience */
+  }
+
+  .navbar-toggle {
+    margin: 10px auto;
+    float: none;
+    /* margin-right: 5px; */
+  }
+}
+
 /* body {
   background-color: rgba(0,0,0,1);
   font-weight:600;
@@ -1489,7 +1524,7 @@ input[type="text"] {
 nav {
   text-align: center;
   /* background:none  */
-  background: #000;
+  /* background: #941515; */
   /* float: center; */
   /* display: block; */
   float: none;
@@ -1509,6 +1544,13 @@ nav {
 nav .navbar-nav {
   float: right;
   border-radius: 0 0 0 0;
+}
+
+.navbar-toggle {
+  position: absolute;
+  right: 0; /* Move the button to the right */
+  top: 10px; /* Adjust vertically for better alignment */
+  margin-right: 15px; /* Optional: Add spacing from the right edge */
 }
 
 nav a .logo {
@@ -1544,7 +1586,21 @@ nav li a {
   border: none;
   text-align: center;
   border-radius: 0 0 0 0;
+  background-color: rgb(0, 0, 0);
+  
 }
+/* ADDED FOR HOVER *? */
+/* Apply hover styles to the active link */
+.navbar-nav li.active .hoverable {
+  transform: translateY(-5px);
+}
+
+.navbar-nav li.active .hoverable:before {
+  opacity: 1;
+  transform: translateY(-5px);
+}
+/* ADDED FOR HOVER *? */
+
 
 .profile-links {
   margin: 0;
@@ -1605,11 +1661,67 @@ nav li a {
 /* ---- particles.js container ---- */ 
 #particles-js{ 
   position:absolute; 
-  width: 100%; height: 
-  100%; 
+  width: 100%; 
+  height: 100%; 
   background-color: #ffffff; 
   background-image: url(""); 
   background-repeat: no-repeat; 
   background-size: cover; 
   background-position: 50% 50%; 
 } 
+
+/* -------------------- */
+/* PUBLICATIONS TABLES */
+/* -------------------- */
+
+
+/* Scope styles to only the publications section */
+.publications .nav-tabs {
+  border-bottom: 2px solid #ddd;
+  margin-bottom: 20px;
+}
+
+.publications .nav-tabs > li > a {
+  font-size: large;
+  font-weight: bold;
+  background-color: #f9f9f9; /* Light background for tabs */
+  color: #555; /* Default text color */
+  /* border: 1px solid #ddd; */
+  /* border-radius: 4px 4px 0 0; Rounded corners at the top */
+  margin-right: 5px;
+  padding: 10px 15px;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.publications .nav-tabs > li > a:hover {
+  background-color: #f1f1f1; /* Slightly darker background on hover */
+  color: #333; /* Darker text on hover */
+  text-decoration: none;
+}
+
+.publications .nav-tabs > li.active > a,
+.publications .nav-tabs > li.active > a:hover,
+.publications .nav-tabs > li.active > a:focus {
+  background-color: #fff; /* White background for the active tab */
+  color: #333; /* Darker text color for active tab */
+  /* border: 1px solid #ddd; */
+  border-bottom-color: #303030;
+  border-bottom-width: 2px;
+}
+
+.publications .tab-content {
+  /* border: 1px solid #ddd; */
+  padding: 20px;
+  background-color: #fff; /* White background for tab content */
+  /* border-radius: 0 4px 4px 4px; Rounded corners at the bottom */
+  margin-top: -1px; /* Align with active tab */
+}
+
+/* Responsive adjustments for publications tabs */
+@media screen and (max-width: 768px) {
+  .publications .nav-tabs > li > a {
+      padding: 8px 10px; /* Smaller padding for small screens */
+      font-size: 14px; /* Adjust font size */
+  }
+}
+

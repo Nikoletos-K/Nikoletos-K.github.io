@@ -1,0 +1,15 @@
+[
+    {
+        "id": "T1",
+        "title": "The Five Generations of Entity Resolution on Web Data",
+        "authors": ["Konstantinos Nikoletos", "Ekaterini Ioannou", "George Papadakis"],
+        "publisher": "ICWE",
+        "topic": "Entity Resolution on Web Data",
+        "year": "2024",
+        "links": [
+            { "label": "PDF", "url": "https://link.springer.com/chapter/10.1007/978-3-031-62362-2_46" },
+            { "label": "Website", "url": "https://pyjedai.readthedocs.io/en/latest/pages/icwe2024.html" },
+            { "label": "Slides", "url": "https://github.com/AI-team-UoA/pyJedAI/blob/main/docs/presentations/ICWE2024/5gER-Tutorial-Slides.pdf" }
+        ]
+    }
+]

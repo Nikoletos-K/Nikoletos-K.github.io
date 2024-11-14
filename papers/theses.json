@@ -1,0 +1,24 @@
+[
+    {
+        "id": "S1",
+        "title": "pyJedAI Parallelization with MPIRE",
+        "authors": ["Ilias A. Kontonis"],
+        "publisher": "University of Athens",
+        "topic": "Entity Resolution, Parallelization",
+        "year": "2023",
+        "links": [
+            { "label": "PDF", "url": "https://pergamos.lib.uoa.gr/uoa/dl/object/3395772/file.pdf" }
+        ]
+    },
+    {
+        "id": "S2",
+        "title": "An Efficient Algorithm for Big Data Clustering",
+        "authors": ["Mastorakis Efstathios-Andreas"],
+        "publisher": "University of Athens",
+        "topic": "News Aggregation, Web Crawling",
+        "year": "2024",
+        "links": [
+            { "label": "PDF", "url": "https://pergamos.lib.uoa.gr/uoa/dl/frontend/el/browse/3404641" }
+        ]
+    }
+]

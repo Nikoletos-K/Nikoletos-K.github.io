@@ -1,0 +1,13 @@
+[
+    {
+        "id": "D1",
+        "title": "pyJedAI: a Lightsaber for Link Discovery",
+        "authors": ["Konstantinos Nikoletos", "George Papadakis", "Manolis Koubarakis"],
+        "publisher": "ISWC",
+        "topic": "Entity Resolution",
+        "year": "2022",
+        "links": [
+            { "label": "PDF", "url": "https://ceur-ws.org/Vol-3254/paper366.pdf" }
+        ]
+    }
+]
