@@ -451,6 +451,37 @@ align-items: center;
   background: #991a1a;
 }
 
+#about .social-icon-wrapper {
+  position: relative;
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+
+#about .social-icon-wrapper:hover {
+  transform: translateY(-5px);
+}
+
+#about .hover-text {
+  position: absolute;
+  bottom: -25px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #ffffff;
+  padding: 2px 5px;
+  font-size:x-small;
+  color: #000;
+  border-radius: 5px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  white-space: nowrap;
+  pointer-events: none;
+  font-weight: bold;
+}
+
+#about .social-icon-wrapper:hover .hover-text {
+  opacity: 1;
+}
+
 .fh5co-heading {
   margin-bottom: 5em;
 }
