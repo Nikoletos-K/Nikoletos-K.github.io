@@ -442,12 +442,13 @@
 				}
 			});
 		</script>
-		<script src="../js/_my_js.js"></script>
 		<script>
-			document.addEventListener('DOMContentLoaded', () => {
-				setCurrentYear('currentYear');
+			// Set the current year in the footer
+			document.addEventListener("DOMContentLoaded", () => {
+				const currentYear = new Date().getFullYear();
+				document.getElementById("currentYear").textContent = currentYear;
 			});
-		</script>
+		</script>	
 </body>
 </html>
 

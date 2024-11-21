@@ -107,13 +107,26 @@
                             <li class="timeline-heading text-center animate-box">
                                 <div><h3>Work Experience</h3></div>
                             </li>
-                            <li class="timeline-inverted animate-box">
+                            <li class="timeline-unverted animate-box">
+                                <div class="timeline-badge"><i class="icon-suitcase"></i></div>
+                                <div class="timeline-panel">
+                                    <div class="timeline-heading">
+                                        <h3 class="timeline-title">Research Fellow</h3>
+                                        <img src="https://www.unitn.it/fileswww/webteam/marchio_unitrento_colore_en_250.jpg" alt="" width="200" style="padding-bottom: 15px;">
+                                        <span class="company"><a href="https://www.unitn.it/en">Department of Information Engineering and Computer Science<BR>University of Trento</a><Br> November 2024 - now</span>
+                                    </div>
+
+                                    <div class="timeline-body">
+                                        <p>Received research study grant for recent graduates.<br>Supervised by <a href="https://velgias.github.io">Prof. Yiannis Velegrakis</a>.<br>Research area: Submodular Optimization for Entity Resolution &<br> Data Forgetting.</div>
+                                </div>
+                            </li>
+							<li class="timeline-inverted animate-box">
                                 <div class="timeline-badge"><i class="icon-suitcase"></i></div>
                                 <div class="timeline-panel">
                                     <div class="timeline-heading">
                                         <h3 class="timeline-title">Teaching Assistant</h3>
                                         <img src="https://civis.eu/storage/files/logo-uoa.svg" alt="" width="200" style="padding-bottom: 15px;">
-                                        <span class="company"><a href="https://www.di.uoa.gr/en">Department of Informatics<BR>University of Athens</a><Br> October 2022 - October 2024</span>
+                                        <span class="company"><a href="https://www.di.uoa.gr/en">Department of Informatics & Telecommunications<BR>University of Athens</a><Br> October 2022 - October 2024</span>
                                     </div>
                                     <div class="timeline-body">
                                         <p>Courses: Data Structures & Algorithms in C,<br> Deep Learning for NLP</p>
@@ -220,12 +233,13 @@
 	<!-- End Google Analytics -->
 	<!-- <script src="//code.jquery.com/jquery.min.js"></script> -->
     <!-- My JS -->
-    <script src="../js/_my_js.js"></script>
-    <script>
-        document.addEventListener('DOMContentLoaded', () => {
-            setCurrentYear('currentYear');
-        });
-    </script>
+	<script>
+		// Set the current year in the footer
+		document.addEventListener("DOMContentLoaded", () => {
+			const currentYear = new Date().getFullYear();
+			document.getElementById("currentYear").textContent = currentYear;
+		});
+	</script>	
 	</body>
 	
 

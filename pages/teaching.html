@@ -121,7 +121,7 @@
 										<h3 class="timeline-title">Deep Learning for NLP</h3>
 										<h4 class="timeline-title" style="color: rgb(113, 114, 116);">Teaching Assistance</h4>
 										<img src="https://civis.eu/storage/files/logo-uoa.svg" alt="" width="200" style="padding-bottom: 15px;">
-										<span class="company"><a href="https://www.di.uoa.gr/en">Department of Informatics<br>University of Athens</a><br><b style="color: rgb(0, 0, 0);font-weight: normal;">Fall Semesters 2023-2024.</b></span>
+										<span class="company"><a href="https://www.di.uoa.gr/en">Department of Informatics & Telecommunications<br>University of Athens</a><br><b style="color: rgb(0, 0, 0);font-weight: normal;">Fall Semesters 2023-2024.</b></span>
 									</div>
 								</div>
 							</li>
@@ -132,7 +132,7 @@
 										<h3 class="timeline-title">Data Structures & <br>Programming Techniques in C</h3>
 										<h4 class="timeline-title" style="color: rgb(113, 114, 116);">Teaching Assistance</h4>
 										<img src="https://civis.eu/storage/files/logo-uoa.svg" alt="" width="200" style="padding-bottom: 15px;">
-										<span class="company"><a href="https://www.di.uoa.gr/en">Department of Informatics<br>University of Athens</a><br><b style="color: rgb(0, 0, 0);font-weight: normal;">Spring Semesters 2022-2024.</b></span>
+										<span class="company"><a href="https://www.di.uoa.gr/en">Department of Informatics & Telecommunications<br>University of Athens</a><br><b style="color: rgb(0, 0, 0);font-weight: normal;">Spring Semesters 2022-2024.</b></span>
 									</div>
 								</div>
 							</li>
@@ -199,12 +199,13 @@
 	ga('send', 'pageview');
 	</script>
     <!-- My JS -->
-    <script src="../js/_my_js.js"></script>
-    <script>
-        document.addEventListener('DOMContentLoaded', () => {
-            setCurrentYear('currentYear');
-        });
-    </script>
+	<script>
+		// Set the current year in the footer
+		document.addEventListener("DOMContentLoaded", () => {
+			const currentYear = new Date().getFullYear();
+			document.getElementById("currentYear").textContent = currentYear;
+		});
+	</script>	
 	
 	</body>
 	
