@@ -20,5 +20,16 @@
         "links": [
             { "label": "PDF", "url": "https://pergamos.lib.uoa.gr/uoa/dl/frontend/el/browse/3404641" }
         ]
+    },
+    {
+        "id": "S3",
+        "title": "Spark Parallelization for pyJedAI",
+        "authors": ["Eleftherios G. Stetsikas"],
+        "publisher": "University of Athens",
+        "topic": "Parallel Entity Resolution, Apache Spark",
+        "year": "2025",
+        "links": [
+            { "label": "PDF", "url": "https://pergamos.lib.uoa.gr/uoa/dl/object/3474057/file.pdf" }
+        ]
     }
 ]
