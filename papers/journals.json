@@ -22,5 +22,16 @@
             { "label": "PDF", "url": "https://link.springer.com/article/10.1007/s00778-024-00868-7" },
             { "label": "Cite", "url": "https://link.springer.com/article/10.1007/s00778-024-00868-7#citeas" }
         ]
+    },
+    {
+        "id": "J3",
+        "title": "Auto-Configuring Entity Resolution Pipelines",
+        "authors": ["Konstantinos Nikoletos", "Vasilis Efthymiou", "George Papadakis",  "Kostas Stefanidis"],
+        "publisher": "IEEE Access",
+        "topic": "Entity Resolution, AutoML",
+        "year": "2025",
+        "links": [
+            { "label": "PDF", "url": "https://ieeexplore.ieee.org/document/11129641" }
+        ]
     }
 ]
