@@ -544,7 +544,8 @@ align-items: center;
   text-transform: uppercase;
   letter-spacing: 5px;
   font-weight: bold;
-  background: #e6e6e6;
+  background: #000000;
+  color: #fff;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   -ms-border-radius: 4px;
@@ -902,7 +903,8 @@ align-items: center;
 
 .projects {
   width: 100%;
-  float: left;
+  /* float: left; */
+  float: none;
   margin-bottom: 40px;
 }
 
@@ -935,7 +937,8 @@ align-items: center;
   position: relative;
   width: 100%;
   padding: 30px;
-  float: left;
+  /* float: left; */
+  float: none;
   background: #fff;
   -webkit-box-shadow: 8px 8px 18px 8px rgba(0, 0, 0, 0.06);
   -moz-box-shadow: 8px 8px 18px 8px rgba(0, 0, 0, 0.06);
@@ -1756,3 +1759,24 @@ nav li a {
   }
 }
 
+
+/* FIX PROJECTS GRID SPACING (Bootstrap 3 + unequal heights) */
+/* Masonry layout using CSS columns */
+#projects .row.masonry {
+  column-count: 2;
+  column-gap: 30px;
+}
+
+@media (max-width: 992px) {
+  #projects .row.masonry { column-count: 1; }
+}
+
+/* IMPORTANT: make each col behave like a masonry item */
+#projects .row.masonry > [class*="col-"] {
+  float: none !important;
+  width: 100% !important;
+  display: inline-block;
+  break-inside: avoid;
+  -webkit-column-break-inside: avoid;
+  margin: 0 0 30px;
+}
